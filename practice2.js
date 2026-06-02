@@ -53,13 +53,7 @@ class LibraryItem{
     return "Return Item is not available.";
 }
 
-checkOutId(id) {
-    if (this.id === id && this.isAvailable) {
-        this.isAvailable = false;
-        return `Checked out ${this.title}`;
-    }
-    return "Checkout failed.";
-}
+
 
     }
        class Book extends LibraryItem{
@@ -106,6 +100,7 @@ console.log(magazineName.returnItem());
 console.log(magazineName.isAvailable);
 
 console.log(dvd.checkOut());
+console.log(magazineName.returnItem());
 
 
 

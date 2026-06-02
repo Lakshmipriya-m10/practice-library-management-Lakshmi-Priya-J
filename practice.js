@@ -90,7 +90,13 @@ console.log(bookName3);
 console.log(dvdName);
 console.log(magazineName);
 
-
+checkOutId(id) {
+    if (this.id === id && this.isAvailable) {
+        this.isAvailable = false;
+        return `Checked out ${this.title}`;
+    }
+    return "Checkout failed.";
+}
 /*
 4. Step 4: Test the Inheritance
 Use inherited methods like checkOut() and returnItem() to

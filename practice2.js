@@ -88,7 +88,7 @@ checkOutId(id) {
     const libraryBook = new LibraryItem("The Hidden Chapter", 12325, true);
     const book1 = new Book("Book-Harry Potter", 12345, true, "J.K. Rowling", "Fantasy");
     const dvd = new Dvd("DVD-The Lion King", 458721, true, "Roger Allers", "120 minutes");
-    const dvd = new Dvd("DVD-The Lion King", 458721, true, "Roger Allers", "120 minutes");
+
     const magazineName = new Magazine("Times", 145698, true, 125489, "Time USA, LLC");
 
 

@@ -47,8 +47,8 @@ class LibraryItem{
 
     returnItem(){
        if (this.isAvailable) {
-        this.isAvailable = false;
-        return `Successfully Returnout ${this.id}. ${this.title} is now unavailable.`;
+        this.isAvailable = true;
+        return `Successfully Returnout ${this.id}. ${this.title} is now available.`;
     }
     return "Return Item is not available.";
 }
